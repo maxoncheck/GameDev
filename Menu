@@ -5,6 +5,9 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 clock = pygame.time.Clock()
 background_image = pygame.image.load('images/gamebg.jpeg')
+pygame.mixer.init()
+pygame.mixer.music.load('noplaynogay.mp3')
+pygame.mixer.music.play(-1)
 
 
 
