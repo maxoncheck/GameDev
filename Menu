@@ -1,7 +1,4 @@
 from pygame import *
 from ursina import *
+print('griggson huesos')
 
-pygame.init()
-screen = pygame.display.set_mode((800, 600))
-clock = pygame.time.Clock()
-background_image = pygame.image.load('images/gamebg.jpeg')
